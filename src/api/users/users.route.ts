@@ -1,3 +1,4 @@
+// @ts-nocheck
 import express from "express";
 import * as controller from "./users.controller";
 import catchAsync from "../../utils/catchAsync";

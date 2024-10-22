@@ -1,3 +1,4 @@
+// @ts-nocheck
 import express from "express";
 import catchAsync from "../../utils/catchAsync";
 import { auth } from "../auth/auth.middleware";

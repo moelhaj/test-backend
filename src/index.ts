@@ -14,7 +14,7 @@ app.use(morgan("tiny"));
 app.use(
 	cors({
 		credentials: true,
-		origin: true,
+		origin: "*",
 	})
 );
 app.use(helmet());

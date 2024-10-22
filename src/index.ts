@@ -6,7 +6,6 @@ import express, { Express } from "express";
 import { Request, Response, NextFunction } from "express";
 import config from "./config";
 import routes from "./api";
-import { auth } from "./api/auth/auth.middleware";
 
 const app: Express = express();
 

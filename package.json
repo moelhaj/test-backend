@@ -3,7 +3,6 @@
 	"version": "1.0.0",
 	"main": "src/index.ts",
 	"author": "Mohamed Elhaj",
-	"type": "module",
 	"license": "MIT",
 	"scripts": {
 		"start": "node ./dist/index.js",
